@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1 onclick="alert('h1 on fire ')">Hello Javascript, Let's start clickbaji with EVENT</h1>
+ <button onclick="document.body.style.backgroundColor = 'cyan'">Click Me :cyan</button>
+ <button onclick=" makeRed()">Click Me : red</button>
+ <button id="blue-button">Click Me : blue</button>
+ <button id="green-button">Click Me : green</button>
+ <button id="goldenrod-button">Click Me : gloden rod</button>
+ <button id="hotpink-button">Click Me : Hot Pink</button>
+ <button id="lightblue-button">Click Me : light Blue</button>
+
+
+ <button id="resetColor">Reset</button>
+
+    <script>
+        document.getElementById('lightblue-button').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'lightblue'
+        })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
